@@ -211,13 +211,13 @@ mkdir ~/cardigann
 #### Export this location for your GO to use
 
 ```
-setenv GOPATH ~/cardigann
+export GOPATH=~/cardigann
 ```
 
 #### Export BIN location for your GO where all of the compiled binaries will be stored
 
 ```
-setenv GOBIN ~/cardigann/bin
+export GOBIN=~/cardigann/bin
  ```
  
 #### Download all dependencies required from cardigann
